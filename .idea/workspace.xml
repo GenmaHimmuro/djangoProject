@@ -6,22 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7a5a0e25-7ea3-4662-abfc-98e6be947fe5" name="Changes" comment="django">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/.replit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/datacenter/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/datacenter/active_passcards_view.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/datacenter/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/datacenter/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/datacenter/passcard_info_view.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/datacenter/storage_information_view.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/datacenter/templates/active_passcards.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/datacenter/templates/passcard_info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/datacenter/templates/storage_information.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/poetry.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/project/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/project/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/pyproject.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datacenter/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/datacenter/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datacenter/passcard_info_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/datacenter/passcard_info_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datacenter/storage_information_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/datacenter/storage_information_view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +18,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GenmaHimmuro&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GenmaHimmuro/djangoProject.git&quot;,
+    &quot;accountId&quot;: &quot;a5a25e12-4601-4fbf-8b89-f9b2e50c771b&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -75,7 +74,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737027396921</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="django">
+      <option name="closed" value="true" />
+      <created>1737027568445</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737027568445</updated>
+    </task>
+    <task id="LOCAL-00003" summary="django">
+      <option name="closed" value="true" />
+      <created>1737027641530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737027641530</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

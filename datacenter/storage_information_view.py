@@ -8,17 +8,11 @@ def storage_information_view(request):
 
     non_closed_visits = []
     for visit in visits_with_no_leaving:
-        entered_at = timezone.localtime(visit.entered_at)
-        duration = visit.get_duration()
-        formatted_duration = format_duration(duration)
-
-        is_strange = visit.is_long(minutes=15)
-
         non_closed_visits.append({
             'who_entered': visit.passcard.owner_name,
-            'entered_at': entered_at,
-            'duration': formatted_duration,
-            'is_strange': is_strange
+            'entered_at': timezone.localtime(visit.entered_at),
+            'duration': format_duration(visit.get_duration()),
+            'is_strange': visit.count_delayed(minutes=15)
         })
 
     context = {

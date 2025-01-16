@@ -3,6 +3,10 @@ from django.utils import timezone
 from datetime import timedelta
 
 
+SECONDS_PER_HOUR = 3600
+SECONDS_PER_MINUTE = 60
+
+
 class Passcard(models.Model):
     is_active = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now=True)
@@ -37,7 +41,7 @@ class Visit(models.Model):
         leaved_at = self.leaved_at if self.leaved_at else now
         return leaved_at - self.entered_at
 
-    def is_long(self, minutes=60):
+    def count_delayed(self, minutes=60):
         duration = self.get_duration()
         return duration > timedelta(minutes=minutes)
 
@@ -45,7 +49,7 @@ class Visit(models.Model):
 def format_duration(duration):
 
     total_seconds = int(duration.total_seconds())
-    hours, remainder = divmod(total_seconds, 3600)
+    hours, remainder = divmod(total_seconds, SECONDS_PER_HOUR)
 
-    minutes, seconds = divmod(remainder, 60)
+    minutes, seconds = divmod(remainder, SECONDS_PER_MINUTE)
     return f'{hours}ч {minutes}мин'
