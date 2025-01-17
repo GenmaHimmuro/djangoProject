@@ -1,5 +1,6 @@
-from datacenter.models import Passcard, Visit, format_duration
+from datacenter.models import Passcard, Visit
 from django.shortcuts import render, get_object_or_404
+from datacenter.time_info import format_duration
 
 
 def passcard_info_view(request, passcode):

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5a0e25-7ea3-4662-abfc-98e6be947fe5" name="Changes" comment="django">
+      <change afterPath="$PROJECT_DIR$/datacenter/time_info.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datacenter/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/datacenter/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datacenter/passcard_info_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/datacenter/passcard_info_view.py" afterDir="false" />
@@ -14,6 +15,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737027641530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="django">
+      <option name="closed" value="true" />
+      <created>1737042701134</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737042701134</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
