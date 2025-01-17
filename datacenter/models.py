@@ -1,10 +1,6 @@
 from django.db import models
 from django.utils import timezone
 from datetime import timedelta
-#
-#
-# SECONDS_PER_HOUR = 3600
-# SECONDS_PER_MINUTE = 60
 
 
 class Passcard(models.Model):
